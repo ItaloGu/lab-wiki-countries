@@ -1,0 +1,6 @@
+.scroll-container {
+    display: block;
+    overflow-y: scroll;
+    height: 37rem;
+    scroll-behavior: smooth;
+  }
