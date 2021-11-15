@@ -8,9 +8,11 @@ export default function CountriesBorders(props) {
     const foundCountry = countries.find(
       (currentCountryObj) => currentCountryObj.cca3 === currentBorder
     );
+
+    
     return (
       <li>
-        <Link to={foundCountry.cca3}>{foundCountry.name.common}</Link>
+        <Link to={`/${foundCountry.cca3}`} state={true} replace >{foundCountry.name.common}</Link>
       </li>
     );
   });

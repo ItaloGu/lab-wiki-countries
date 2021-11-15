@@ -1,6 +1,6 @@
 .scroll-container {
     display: block;
     overflow-y: scroll;
-    height: 37rem;
+    height: 92.5vh;
     scroll-behavior: smooth;
   }

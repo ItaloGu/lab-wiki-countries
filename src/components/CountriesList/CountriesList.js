@@ -9,7 +9,7 @@ export default function CountriesList() {
         {countries.map((currentCountry) => {
           return (
             <Link
-              to={currentCountry.cca3}
+              to={`/${currentCountry.cca3}`}
               className="Linkst-group-item list-group-item-action"
               key={currentCountry.cca3}
               id={currentCountry.cca3}
